@@ -213,7 +213,7 @@ public class Ftp {
     public static Ftp getDefaultSftpUtil() {
         Ftp ftp = null;
         try {
-            ftp = getSftpUtil("106.13.130.208", 22, "root", "liangchen582461!");
+            ftp = getSftpUtil("18", 22, "root", "liangchen582461!");
         } catch (Exception e) {
             e.printStackTrace();
         }

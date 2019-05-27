@@ -615,7 +615,7 @@ public class SFTPUtils {
      * @throws Exception
      */
     public static void connectDefaultMachine() throws Exception {
-        connect("106.13.130.208", "root", "liangchen582461!", 22);
+        connect("1", "root", "liangchen582461!", 22);
     }
 
     /**

@@ -29,7 +29,20 @@ public class DoFileSyncClient {
 
     }
 
+    /**
+     * 3. 删除文件
+     *
+     * @param file
+     */
+    public static void deleteFile(File file) {
+        try {
 
+
+            SFTPUtils.getSftpUtil().deleteFile();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
 
 }
